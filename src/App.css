@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom:0;
+  text-align: center;
+  width: 100%;
+  background-color: #61dafb;
+}
+
+
+
+.nav-ul li {
+  display: inline-block;
+  padding:10px;
+}
+.nav-ul {
+  padding:5px;
+  margin:0;
+  background-color: #61dafb;
+}
+a {
+  padding:5px;
+  color:#FFF;
+  text-decoration: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* src/components/SignUp.css */
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+}
+
+.register h1 {
+  margin-bottom: 20px;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #4ca0af;
+  color: white;
+  border:1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.appButton {
+  margin:20px;
+  width:150px;
+  padding:10px;
+  background-color: skyblue;
+  border:solid 1px;
+  cursor: pointer;
+}
+
+
+.product-list {
+  text-align: center;
+  margin-top:50px ;
+}
+
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding:5px;
+  width: 150px;
+}
+
+.search {
+  width: 400px;
+  margin:20px;
+  height: 40px;
+  border:1px solid skyblue;
+  padding-left:15px;
+}
+
+
+.products {
+  margin:0;
+}
+
+.product {
+  margin-left: 30%;
+}
+
+.inavlid-input {
+   color:red;
+   margin-top:-20px;
+   display: block;
+   margin-left:20px;
+}
+
+
+.submitButton:hover {
+  background-color: #4592a0;
+}
+
+.inputBox {
+  padding:7px;
+  display:block;
+  border:1px solid skyblue;
+  width: 300px;
+  margin:20px;
+}
+
+.login {
+  margin-left:30%;
+  /* margin-top:100%; */
+}
+
+.nav-right {
+  text-align: right;
+
+} 
+
+.logo {
+  width:45px;
+  float: left;
+  border-radius: 50%;
+  margin-top:3px;
+  margin-left: 20px;
+}
